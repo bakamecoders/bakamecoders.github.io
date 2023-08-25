@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Raleway;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-transform: capitalize;
+    width: 100%;
+  }
+  
+  .footer hr {
+    border-top: 1px solid #555;
+    margin: 10px 0px;
+  }
+  
+  .footer .section {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding: 0 10px;
+  }
+  
+  .footer .section h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .section a {
+    display: block;
+    color: rgb(136, 130, 130);
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 5px 0px;
+    font-size: 23px;
+  }
+  
+  .footer .section a:hover {
+    text-decoration: underline;
+  }
+  .footer .copy{
+    text-align: center;
+  }

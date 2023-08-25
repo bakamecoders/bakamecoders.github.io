@@ -1,0 +1,31 @@
+.slideshow-container {
+    max-width: 1000px;
+     position: relative;
+     margin: auto;
+   }
+
+   .slideshow-image {
+     display: none;
+     width: 100%;
+   }
+
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     font-size: 20px;
+     padding: 10px;
+   }
+
+   .prev {
+     left: 0;
+   }
+
+   .next {
+     right: 0;
+   }
+   .slideshow-image{
+     border: 2px solid pink;
+     border-radius: 20px;
+   }
